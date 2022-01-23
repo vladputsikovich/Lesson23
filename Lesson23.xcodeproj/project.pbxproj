@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED13CC7F279C8D07007F09A0 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13CC7E279C8D07007F09A0 /* ChatMessageCell.swift */; };
 		ED5B05B927989951007862E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B05B827989951007862E2 /* AppDelegate.swift */; };
 		ED5B05BB27989951007862E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B05BA27989951007862E2 /* SceneDelegate.swift */; };
 		ED5B05BD27989951007862E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B05BC27989951007862E2 /* ViewController.swift */; };
 		ED5B05C027989951007862E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5B05BE27989951007862E2 /* Main.storyboard */; };
 		ED5B05C227989952007862E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5B05C127989952007862E2 /* Assets.xcassets */; };
 		ED5B05C527989952007862E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5B05C327989952007862E2 /* LaunchScreen.storyboard */; };
+		ED5B05CD27989F36007862E2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B05CC27989F36007862E2 /* Message.swift */; };
+		EDA6E494279D867C008AC584 /* ImageChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6E493279D867C008AC584 /* ImageChanger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED13CC7E279C8D07007F09A0 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 		ED5B05B527989951007862E2 /* Lesson23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5B05B827989951007862E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED5B05BA27989951007862E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		ED5B05C127989952007862E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5B05C427989952007862E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5B05C627989952007862E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5B05CC27989F36007862E2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		EDA6E493279D867C008AC584 /* ImageChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChanger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED13CC7D279C8C84007F09A0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED13CC7E279C8D07007F09A0 /* ChatMessageCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		ED5B05AC27989950007862E2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,12 @@
 		ED5B05B727989951007862E2 /* Lesson23 */ = {
 			isa = PBXGroup;
 			children = (
+				ED13CC7D279C8C84007F09A0 /* Cells */,
 				ED5B05B827989951007862E2 /* AppDelegate.swift */,
 				ED5B05BA27989951007862E2 /* SceneDelegate.swift */,
 				ED5B05BC27989951007862E2 /* ViewController.swift */,
+				ED5B05CC27989F36007862E2 /* Message.swift */,
+				EDA6E493279D867C008AC584 /* ImageChanger.swift */,
 				ED5B05BE27989951007862E2 /* Main.storyboard */,
 				ED5B05C127989952007862E2 /* Assets.xcassets */,
 				ED5B05C327989952007862E2 /* LaunchScreen.storyboard */,
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED5B05BD27989951007862E2 /* ViewController.swift in Sources */,
+				ED13CC7F279C8D07007F09A0 /* ChatMessageCell.swift in Sources */,
+				ED5B05CD27989F36007862E2 /* Message.swift in Sources */,
 				ED5B05B927989951007862E2 /* AppDelegate.swift in Sources */,
+				EDA6E494279D867C008AC584 /* ImageChanger.swift in Sources */,
 				ED5B05BB27989951007862E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
